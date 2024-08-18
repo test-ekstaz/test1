@@ -1,5 +1,6 @@
 
 React + Typescript
+
 Redux Toolkit
 
 архитектурная методология - Feature-Sliced Design (FSD)
