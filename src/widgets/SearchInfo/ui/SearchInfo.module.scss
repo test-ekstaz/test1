@@ -1,0 +1,132 @@
+.firstVisited {
+  width: 100%;
+  height: calc(100vh - var(--height-navbar) - var(--height-footer));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 143%;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #4f4f4f;
+}
+
+.result {
+  margin-top: 24px;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 117%;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.wrapperTable {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  width: auto;
+}
+
+.right {
+  width: 480px;
+  background: #f2f2f2;
+  padding: 24px;
+}
+
+.text {
+  margin-top: 50%;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 143%;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #4f4f4f;
+}
+
+.tableTitle {
+  font-weight: 600 !important;
+  font-size: 14px !important;
+  line-height: 171% !important;
+  letter-spacing: 0.01em !important;
+  color: rgba(0, 0, 0, 0.87) !important;
+  width: 183px !important;
+}
+
+.rowCell {
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  line-height: 171% !important;
+  letter-spacing: 0.01em !important;
+  color: rgba(0, 0, 0, 0.87) !important;
+  width: 183px !important;
+}
+
+.sortLabelReversed {
+  display: flex !important;
+  flex-direction: row-reverse !important;
+  justify-content: flex-start !important;
+}
+
+.hoverVisible {
+  position: sticky;
+  top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.name {
+  text-align: center;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 125%;
+  color: rgba(0, 0, 0, 0.87);
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  white-space: normal;
+}
+
+.infoWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.language {
+  background: #2196f3;
+  border-radius: 100px;
+  padding: 4px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 138%;
+  letter-spacing: 0.01em;
+  color: #fff;
+}
+
+.star {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.stargazers_count {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 143%;
+  letter-spacing: 0.01em;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.license {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 143%;
+  letter-spacing: 0.01em;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.pagination {
+  margin-bottom: calc(--var(--height-footer) + 90px);
+}

@@ -1,0 +1,12 @@
+.search {
+  width: 100%;
+  background: #ffffff;
+  border-radius: 4px;
+}
+
+.placeholder::placeholder {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 14px;
+  color: #828282;
+}
